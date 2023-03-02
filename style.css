@@ -1,0 +1,23 @@
+
+html {
+    background-color: rgb(56, 56, 56);
+}
+
+#slider {
+	margin: 0 0 40px 0;
+	width: 500px;
+	height: 280px;
+	border-radius: 10px;
+	border: 1px solid lightgreen;
+	overflow: hidden;
+	position: relative;
+  }
+
+  #slider img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: opacity 1s ease;}
